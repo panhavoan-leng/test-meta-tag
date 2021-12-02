@@ -1,4 +1,4 @@
-@extends('master', ['title' => 'Test'])
+@extends('master', ['title' => 'Index Test', 'description' => 'Index Description Test'])
 
 @section('content')
     <div class="container">
