@@ -4,6 +4,8 @@
     <meta property="og:image" content="https://techis.io/src_image/techis_nav_logo.png">
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ $description }}">
+    <meta property="og:url" content="{{ request()->url() }}">
+    <meta property="og:type" content="website">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
